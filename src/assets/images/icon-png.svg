@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8F4FF"/>
+      <stop offset="100%" stop-color="#D3ECFF"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="none" stroke-width="1">
+    <!-- Document shape with folded corner -->
+    <path d="M48 20h104l56 56v160c0 6.627-5.373 12-12 12H48c-6.627 0-12-5.373-12-12V32c0-6.627 5.373-12 12-12z" fill="url(#g)"/>
+    <path d="M152 20v44c0 6.627 5.373 12 12 12h44L152 20z" fill="#BCE3FF"/>
+    <!-- Decorative bars -->
+    <rect x="64" y="110" width="128" height="10" rx="5" fill="#A3D5FF"/>
+    <rect x="64" y="132" width="128" height="10" rx="5" fill="#A3D5FF"/>
+    <rect x="64" y="154" width="90" height="10" rx="5" fill="#A3D5FF"/>
+    <!-- Badge -->
+    <rect x="64" y="184" width="128" height="44" rx="10" fill="#1B8AF0"/>
+    <text x="128" y="214" font-family="Inter,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="24" font-weight="700" text-anchor="middle" fill="#FFFFFF">PNG</text>
+  </g>
+  <title>PNG file icon</title>
+  <desc>Neutral document-style icon labeled PNG</desc>
+</svg>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="g2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFF2EA"/>
+      <stop offset="100%" stop-color="#FFE3D1"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="none" stroke-width="1">
+    <!-- Document shape with folded corner -->
+    <path d="M48 20h104l56 56v160c0 6.627-5.373 12-12 12H48c-6.627 0-12-5.373-12-12V32c0-6.627 5.373-12 12-12z" fill="url(#g2)"/>
+    <path d="M152 20v44c0 6.627 5.373 12 12 12h44L152 20z" fill="#FFD3BA"/>
+    <!-- Decorative image-like shapes -->
+    <rect x="64" y="108" width="128" height="72" rx="8" fill="#FFC09E"/>
+    <circle cx="96" cy="132" r="12" fill="#FFE7D6"/>
+    <path d="M72 170l26-26 18 18 22-22 26 30" fill="none" stroke="#FFE7D6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Badge -->
+    <rect x="64" y="184" width="128" height="44" rx="10" fill="#FF7A1A"/>
+    <text x="128" y="214" font-family="Inter,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="24" font-weight="700" text-anchor="middle" fill="#FFFFFF">JPG</text>
+  </g>
+  <title>JPG file icon</title>
+  <desc>Neutral document-style icon labeled JPG</desc>
+</svg>
