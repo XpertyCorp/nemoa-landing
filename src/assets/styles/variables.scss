@@ -1,11 +1,13 @@
-// SCSS Variables
+// SCSS Variables - Figma에서 추출한 정확한 색상
 $color-black: #1B1B1B;
-$color-mint: #A6F0D3;
+$color-mint: #00C3D0;  // Figma에서 추출한 정확한 민트 색상
 $color-white: #FFFFFF;
-$color-warmwhite: #FDFCF9;
+$color-warmwhite: #FDFCFA;  // Figma에서 추출한 정확한 웜 화이트
+$color-gray: #787878;  // Figma에서 추출한 회색
+$color-light-gray: #F2F2F2;  // Figma에서 추출한 라이트 그레이
 
-$font-main: 'Pretendard', sans-serif;
-$font-sub: 'Inter', sans-serif;
+$font-main: 'Inter', sans-serif;  // Figma에서 사용된 메인 폰트
+$font-accent: 'Albert Sans', sans-serif;  // Figma에서 사용된 액센트 폰트
 
 $container-width: 1200px;
 $gutter: 24px;

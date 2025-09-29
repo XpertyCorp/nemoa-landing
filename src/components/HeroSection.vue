@@ -107,12 +107,12 @@ export default {
 <style scoped lang="scss">
 @use "@/assets/styles/variables.scss" as *;
 
-.hero {
-  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
-  color: $color-white;
-  min-height: 100vh;
-  position: relative;
-  overflow: hidden;
+  .hero {
+    background: $color-white;  // Figma에서 추출한 정확한 배경색
+    color: $color-black;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
 
   .container {
     max-width: 1440px;
@@ -133,15 +133,12 @@ export default {
 
   .brand-section {
     .brand-title {
-      font-family: $font-main;
-      font-size: 4rem;
-      font-weight: 900;
+      font-family: $font-accent;  // Figma에서 사용된 Albert Sans
+      font-size: 80px;  // Figma에서 추출한 정확한 크기
+      font-weight: 700;  // Figma에서 추출한 정확한 두께
       margin: 0 0 8px 0;
-      background: linear-gradient(135deg, $color-mint 0%, #ffffff 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      letter-spacing: -0.02em;
+      color: $color-mint;  // Figma에서 추출한 정확한 민트 색상
+      letter-spacing: -3px;  // Figma에서 추출한 정확한 자간
       line-height: 1;
     }
 
@@ -154,19 +151,23 @@ export default {
   }
 
   .main-title {
-    font-family: $font-main;
-    font-size: 64px;
-    font-weight: 700;
+    font-family: $font-main;  // Inter 폰트
+    font-size: 50px;  // Figma에서 추출한 정확한 크기
+    font-weight: 600;  // Figma에서 추출한 정확한 두께
     line-height: 1.1;
     margin: 0;
-    color: $color-white;
+    color: $color-black;  // Figma에서 추출한 정확한 텍스트 색상
+    letter-spacing: -1px;  // Figma에서 추출한 정확한 자간
   }
 
   .hero-description {
-    font-size: 20px;
+    font-family: $font-main;  // Inter 폰트
+    font-size: 20px;  // Figma에서 추출한 정확한 크기
+    font-weight: 400;  // Figma에서 추출한 정확한 두께
     line-height: 1.6;
-    color: #e0e0e0;
+    color: $color-gray;  // Figma에서 추출한 정확한 회색
     margin: 0;
+    letter-spacing: -1px;  // Figma에서 추출한 정확한 자간
   }
 
   .cta-buttons {

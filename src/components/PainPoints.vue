@@ -59,11 +59,11 @@ export default {
 <style scoped lang="scss">
 @use "@/assets/styles/variables.scss" as *;
 
-.pain-points {
-  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-  padding: 120px 0;
-  position: relative;
-  overflow: hidden;
+  .pain-points {
+    background: $color-warmwhite;  // Figma에서 추출한 정확한 배경색
+    padding: 120px 0;
+    position: relative;
+    overflow: hidden;
 
   &::before {
     content: '';
@@ -86,11 +86,13 @@ export default {
     margin-bottom: 80px;
 
     .section-title {
-      font-size: 48px;
-      font-weight: 700;
+      font-family: $font-main;  // Inter 폰트
+      font-size: 40px;  // Figma에서 추출한 정확한 크기
+      font-weight: 500;  // Figma에서 추출한 정확한 두께
       color: $color-black;
       margin: 0 0 20px 0;
       line-height: 1.2;
+      letter-spacing: -2px;  // Figma에서 추출한 정확한 자간
     }
 
     .section-subtitle {
